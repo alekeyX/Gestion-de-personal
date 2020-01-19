@@ -72,7 +72,7 @@
                 <div class="form-group row">
                     <h3 class="col-sm-3">Foto:</h3>
                     <div  class="col-sm-7">
-                        <input type="file" name="foto" id="foto" value="{{ $empleado->foto }}" required>
+                        <input type="file" name="foto" id="foto" value="{{ $empleado->foto }}" >
                     </div>
                 </div>
             </div>
